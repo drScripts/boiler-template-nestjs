@@ -1,0 +1,11 @@
+# Base image
+FROM node:18
+
+# Create app directory
+WORKDIR /usr/src/app
+
+# Copy all file
+COPY . .
+
+# Install app dependencies
+RUN yarn

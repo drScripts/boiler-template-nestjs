@@ -1,0 +1,10 @@
+apiVersion: 1
+
+datasources:
+  - name: Loki
+    uid: takeme-logs
+    type: loki
+    url: http://loki:3100
+    editable: true
+    isDefault: false
+    version: 1
