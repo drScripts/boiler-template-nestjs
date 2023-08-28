@@ -6225,10 +6225,10 @@ methods@^1.1.2, methods@~1.1.2:
   resolved "https://registry.yarnpkg.com/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
   integrity sha512-iclAHeNqNm68zFtnZ0e+1L2yUIdvzNoauKU4WBA3VvH/vPFieF7qfRlwUZU+DA9P9bPXIS90ulxoUoCH23sV2w==
 
-microgen-v3-sdk@^0.10.5:
-  version "0.10.5"
-  resolved "https://registry.yarnpkg.com/microgen-v3-sdk/-/microgen-v3-sdk-0.10.5.tgz#0509cac77b0beda449c57e1c7241c676e3d36748"
-  integrity sha512-lhPMbUpiuKXpRNeiTobKKW75QYf8ctECiLajc0bKJITP4nU9IdRLunvSaicnukPjtdmDi03Oep6jsD+WyDEvcA==
+microgen-v3-sdk@^0.10.6:
+  version "0.10.6"
+  resolved "https://registry.yarnpkg.com/microgen-v3-sdk/-/microgen-v3-sdk-0.10.6.tgz#e841d4ebbc8ebf27c681b70ae10eb03408e48680"
+  integrity sha512-OgHm1wehM0g6qLl9HNSMNG6BXBEXMRFs/eT4n9uQb5QrfrK8SHCf2eQ9f12JQeF3Gaq9S0fu0cvrVzjOpTDdvQ==
   dependencies:
     axios "^0.27.2"
     centrifuge "^2.8.5"
@@ -6345,6 +6345,11 @@ mnemonist@0.39.5:
   integrity sha512-FPUtkhtJ0efmEFGpU14x7jGbTB+s18LrzRL2KgoWz9YvcY3cPomz8tih01GbHwnGk/OmkOKfqd/RAQoc8Lm7DQ==
   dependencies:
     obliterator "^2.0.1"
+
+mo@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/mo/-/mo-1.7.3.tgz#39e49ffe649e5e62014f979210678d3bae0f3606"
+  integrity sha512-YJT2mnQBdeFkb0eESdatfyHW8WkPQAly5ImFNORlA1z8e64Uvo7gtTE3CefU3qTQx2Z3LnEwISP+WkxoSiFG/A==
 
 module-details-from-path@^1.0.3:
   version "1.0.3"

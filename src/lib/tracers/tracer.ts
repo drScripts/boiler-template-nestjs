@@ -14,7 +14,11 @@ const exporter = new OTLPTraceExporter({
 
 const sdk = new NodeSDK({
   spanProcessor: new SimpleSpanProcessor(exporter),
-  instrumentations: [new HttpInstrumentation(), new FastifyInstrumentation(), new NestInstrumentation()],
+  instrumentations: [
+    new HttpInstrumentation(),
+    new FastifyInstrumentation(),
+    new NestInstrumentation(),
+  ],
   resource: new Resource({
     [SemanticResourceAttributes.SERVICE_NAME]: 'takeme',
   }),

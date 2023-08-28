@@ -16,6 +16,8 @@ services:
       context: ./
       dockerfile: Dockerfile.dev
     command: "yarn start"
+    env_file:
+      - config/.env.dev
     ports: 
       - 3000:3000
     volumes:
@@ -63,7 +65,7 @@ services:
       - ./depedencies/grafana/grafana.ini:/etc/grafana/grafana.ini
       - ./depedencies/grafana/provisioning/:/etc/grafana/provisioning/
     ports:
-      - "${GRAFANA_SERVICE_PORT}"
+      - "8080:${GRAFANA_SERVICE_PORT}"
     logging: *logging
   
   # ********************
