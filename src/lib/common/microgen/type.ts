@@ -11,3 +11,8 @@ export interface MicrogenAsyncOptions
   useFactory?: (...args: any[]) => Promise<MicrogenOptions> | MicrogenOptions;
   inject?: any[];
 }
+
+export interface Attachment {
+  fileName: string;
+  url: string;
+}
